@@ -1,0 +1,90 @@
+body{
+    background-color:gainsboro;
+}
+ li{
+    border: solid 1px black;
+}
+h2{
+     text-align: center; 
+    padding-top: 2em;
+}
+
+img{
+    margin-left: auto;
+    margin-top: auto; 
+    width: 10em;
+    height: 10em;
+    border: solid black 1px;
+   
+}
+
+.container{
+    
+    height  :fit-content;
+    border: solid black 1px;
+}
+
+.img{
+    background-color: aqua;
+    height:15em;
+    
+}
+.img1{
+background-color: black;
+}
+.img2{
+background-color: brown;
+}
+.img3{
+background-color: blueviolet;
+}
+
+ .next{
+   
+    background-color: aliceblue;
+    float: right;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.prev{
+    
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+
+.btn:hover{
+    background-color: black;
+    color: azure;
+    border: white;
+}
+
+input{
+    width: 10em;
+}
+.btn-secondary{
+    width: 10em;
+
+}
+
+.svetContainer,.posudaContainer,.vannaContainer,.hozContainer,.kategorii,.kovriContainer,.shtoriContainer, .zerkalaContainer{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.OpenedContainer{
+    width: 15em;
+    height: 500px;
+    background-color:blanchedalmond;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.svetContainer{
+    border: 3px black;
+    width: fit-content;
+    border-radius:1 ;
+}

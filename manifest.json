@@ -1,0 +1,14 @@
+{
+    "name": "Товары для дома",
+    "short_name": "Товары",
+    "display": "standalone",
+    "background_color": "gainsboro",
+    "icons": [
+     {
+      "src": "./src/favicon/favicon.png",
+      "sizes": "36x36",
+      "type": "image\/png",
+      "density": "0.75"
+     }
+    ]
+}
