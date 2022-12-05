@@ -88,3 +88,20 @@ input{
     width: fit-content;
     border-radius:1 ;
 }
+
+.form{
+    display: grid;
+    place-items: center;
+    width: 20rem;
+    height: fit-content;
+    background-color: blueviolet;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+footer{
+    width:auto;
+    height:1rem;
+    background-color:aqua;
+}
+

@@ -68,6 +68,131 @@ const zerkalo2 = document.querySelector('.zerkalo2')
 const zerkalo3 = document.querySelector('.zerkalo3')
 const zerkalo4 = document.querySelector('.zerkalo4')
 
+zerkalo4.addEventListener('mouseover', zerkaloOpenedFour)
+function zerkaloOpenedFour(){
+    zerkalaContainer4.classList.add('OpenedContainer')
+    document.querySelector('.opisanieZerka4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    zerkalo4.style.width = '14em'
+    zerkalo4.style.height = '12em'
+}
+zerkalo4.addEventListener('mouseout', zerkaloClosedFour)
+function  zerkaloClosedFour(){
+    zerkalaContainer4.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieZerka4').innerHTML = ''
+    zerkalo4.style.width = '10em'
+    zerkalo4.style.height = '10em'
+}
+
+
+zerkalo3.addEventListener('mouseover', zerkaloOpenedThree)
+function zerkaloOpenedThree(){
+    zerkalaContainer3.classList.add('OpenedContainer')
+    document.querySelector('.opisanieZerka3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    zerkalo3.style.width = '14em'
+    zerkalo3.style.height = '12em'
+}
+zerkalo3.addEventListener('mouseout', zerkaloClosedThree)
+function  zerkaloClosedThree(){
+    zerkalaContainer3.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieZerka3').innerHTML = ''
+    zerkalo3.style.width = '10em'
+    zerkalo3.style.height = '10em'
+}
+
+
+zerkalo2.addEventListener('mouseover', zerkaloOpenedTwo)
+function zerkaloOpenedTwo(){
+    zerkalaContainer2.classList.add('OpenedContainer')
+    document.querySelector('.opisanieZerka2').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    zerkalo2.style.width = '14em'
+    zerkalo2.style.height = '12em'
+}
+zerkalo2.addEventListener('mouseout', zerkaloClosedTwo)
+function  zerkaloClosedTwo(){
+    zerkalaContainer2.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieZerka2').innerHTML = ''
+    zerkalo2.style.width = '10em'
+    zerkalo2.style.height = '10em'
+}
+
+zerkalo1.addEventListener('mouseover', zerkaloOpenedOne)
+function zerkaloOpenedOne(){
+    zerkalaContainer1.classList.add('OpenedContainer')
+    document.querySelector('.opisanieZerkalo1').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    zerkalo1.style.width = '14em'
+    zerkalo1.style.height = '12em'
+}
+zerkalo1.addEventListener('mouseout', zerkaloClosedOne)
+function  zerkaloClosedOne(){
+    zerkalaContainer1.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieZerkalo1').innerHTML = ''
+    zerkalo1.style.width = '10em'
+    zerkalo1.style.height = '10em'
+}
+
+shtori4.addEventListener('mouseover', shtoriOpenedFour)
+function shtoriOpenedFour(){
+    shtoriContainer4.classList.add('OpenedContainer')
+    document.querySelector('.opisanieShtori4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    shtori4.style.width = '14em'
+    shtori4.style.height = '12em'
+}
+shtori4.addEventListener('mouseout', shtoriClosedFour)
+function  shtoriClosedFour(){
+    shtoriContainer4.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieShtori4').innerHTML = ''
+    shtori4.style.width = '10em'
+    shtori4.style.height = '10em'
+}
+
+shtori3.addEventListener('mouseover', shtoriOpenedThree)
+function shtoriOpenedThree(){
+    shtoriContainer3.classList.add('OpenedContainer')
+    document.querySelector('.opisanieShtori3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    shtori3.style.width = '14em'
+    shtori3.style.height = '12em'
+}
+shtori3.addEventListener('mouseout', shtoriClosedThree)
+function  shtoriClosedThree(){
+    shtoriContainer3.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieShtori3').innerHTML = ''
+    shtori3.style.width = '10em'
+    shtori3.style.height = '10em'
+}
+
+shtori2.addEventListener('mouseover', shtoriOpenedTwo)
+function shtoriOpenedTwo(){
+    shtoriContainer2.classList.add('OpenedContainer')
+    document.querySelector('.opisanieShtori2').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    shtori2.style.width = '14em'
+    shtori2.style.height = '12em'
+}
+shtori2.addEventListener('mouseout', shtoriClosedTwo)
+function  shtoriClosedTwo(){
+    shtoriContainer2.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieShtori2').innerHTML = ''
+    shtori2.style.width = '10em'
+    shtori2.style.height = '10em'
+}
+
+
+
+shtori1.addEventListener('mouseover', shtoriOpenedOne)
+function shtoriOpenedOne(){
+    shtoriContainer1.classList.add('OpenedContainer')
+    document.querySelector('.opisanieShtori1').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    shtori1.style.width = '14em'
+    shtori1.style.height = '12em'
+}
+shtori1.addEventListener('mouseout', shtoriClosedOne)
+function  shtoriClosedOne(){
+    shtoriContainer1.classList.remove('OpenedContainer')
+    document.querySelector('.opisanieShtori1').innerHTML = ''
+    shtori1.style.width = '10em'
+    shtori1.style.height = '10em'
+}
+
+
 hoz4.addEventListener('mouseover', hozOpenedFour)
 function hozOpenedFour(){
     hozContainer4.classList.add('OpenedContainer')
@@ -196,14 +321,14 @@ function  kovriClosedOne(){
 vanna4.addEventListener('mouseover', vannaOpenedFour)
 function vannaOpenedFour(){
     vannaContainer4.classList.add('OpenedContainer')
-    document.querySelector('.opisanieVanna3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieVanna4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
     vanna4.style.width = '14em'
     vanna4.style.height = '12em'
 }
 vanna4.addEventListener('mouseout', vannaClosedFour)
 function  vannaClosedFour(){
     vannaContainer4.classList.remove('OpenedContainer')
-    document.querySelector('.opisanieVanna3').innerHTML = ''
+    document.querySelector('.opisanieVanna4').innerHTML = ''
     vanna4.style.width = '10em'
     vanna4.style.height = '10em'
 }
