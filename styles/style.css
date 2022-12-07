@@ -13,8 +13,11 @@ img{
     margin-left: auto;
     margin-top: auto; 
     width: 10em;
+    min-width: 5em;
     height: 10em;
+    min-height: 5em;
     border: solid black 1px;
+    border-radius: 10px;
    
 }
 
@@ -25,18 +28,20 @@ img{
 }
 
 .img{
-    background-color: aqua;
+    background-image: url('../src/slides/4.jpeg') ; 
+   
+    background-size: cover;
     height:15em;
     
 }
 .img1{
-background-color: black;
+background-image: url('../src/slides/1.jpeg');
 }
 .img2{
-background-color: brown;
+background-image: url('../src/slides/2.jpeg');
 }
 .img3{
-background-color: blueviolet;
+background-image: url('../src/slides/3.jpg');
 }
 
  .next{
@@ -94,9 +99,14 @@ input{
     place-items: center;
     width: 20rem;
     height: fit-content;
-    background-color: blueviolet;
+    background-color:  rgb(140, 143, 143);
     border: solid 3px black;
     border-radius: 10px;
+}
+
+.forms{
+    display: grid;
+    place-items: center;
 }
 
 footer{
@@ -105,3 +115,10 @@ footer{
     background-color:aqua;
 }
 
+input, li{
+    border-radius: 5px;
+}
+.kateg{
+    display: grid;
+    place-items: center;
+}
