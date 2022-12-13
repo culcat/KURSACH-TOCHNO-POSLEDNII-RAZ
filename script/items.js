@@ -1,3 +1,5 @@
+//@author Крайнюков Александр 
+//Скрипт для приближения картинки товара добавления описания при наведении
 const containerOne = document.querySelector('.posudaContainer1')
 const containerTwo = document.querySelector('.posudaContainer2')
 const containerThree = document.querySelector('.posudaContainer3')
@@ -71,7 +73,7 @@ const zerkalo4 = document.querySelector('.zerkalo4')
 zerkalo4.addEventListener('mouseover', zerkaloOpenedFour)
 function zerkaloOpenedFour(){
     zerkalaContainer4.classList.add('OpenedContainer')
-    document.querySelector('.opisanieZerka4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieZerka4').innerHTML = 'Зеркало, настенное, с пескоструйной графикой, 50х50 см. Зеркало - незаменимый элемент любого интерьера.'
     zerkalo4.style.width = '14em'
     zerkalo4.style.height = '12em'
 }
@@ -87,7 +89,7 @@ function  zerkaloClosedFour(){
 zerkalo3.addEventListener('mouseover', zerkaloOpenedThree)
 function zerkaloOpenedThree(){
     zerkalaContainer3.classList.add('OpenedContainer')
-    document.querySelector('.opisanieZerka3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieZerka3').innerHTML = 'Винтажное зеркало в классическом стиле можно повесить в спальню, прихожую, гардеробную, коридор, рабочий кабинет.'
     zerkalo3.style.width = '14em'
     zerkalo3.style.height = '12em'
 }
@@ -103,7 +105,7 @@ function  zerkaloClosedThree(){
 zerkalo2.addEventListener('mouseover', zerkaloOpenedTwo)
 function zerkaloOpenedTwo(){
     zerkalaContainer2.classList.add('OpenedContainer')
-    document.querySelector('.opisanieZerka2').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieZerka2').innerHTML = 'Зеркало настенное в современной минималистичной раме.'
     zerkalo2.style.width = '14em'
     zerkalo2.style.height = '12em'
 }
@@ -118,7 +120,7 @@ function  zerkaloClosedTwo(){
 zerkalo1.addEventListener('mouseover', zerkaloOpenedOne)
 function zerkaloOpenedOne(){
     zerkalaContainer1.classList.add('OpenedContainer')
-    document.querySelector('.opisanieZerkalo1').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieZerkalo1').innerHTML = 'Размер: 700мм Материал: Древесный Окраска: Золотая поталь Основные цвета: золото, серебро, бронза, белый,черный.Возможно выкрасить по RAL.'
     zerkalo1.style.width = '14em'
     zerkalo1.style.height = '12em'
 }
@@ -133,7 +135,7 @@ function  zerkaloClosedOne(){
 shtori4.addEventListener('mouseover', shtoriOpenedFour)
 function shtoriOpenedFour(){
     shtoriContainer4.classList.add('OpenedContainer')
-    document.querySelector('.opisanieShtori4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieShtori4').innerHTML = 'Шторы - стильный и всегда актуальный вариант оформления ваших окон. Состав занавесок: лен 100%, плотность 224 гр/м2, количество - 1 шт.'
     shtori4.style.width = '14em'
     shtori4.style.height = '12em'
 }
@@ -148,7 +150,7 @@ function  shtoriClosedFour(){
 shtori3.addEventListener('mouseover', shtoriOpenedThree)
 function shtoriOpenedThree(){
     shtoriContainer3.classList.add('OpenedContainer')
-    document.querySelector('.opisanieShtori3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieShtori3').innerHTML = 'Комплект готовых декоративных мраморных штор (под тюль-вуаль) на окна с подхватами. '
     shtori3.style.width = '14em'
     shtori3.style.height = '12em'
 }
@@ -163,7 +165,7 @@ function  shtoriClosedThree(){
 shtori2.addEventListener('mouseover', shtoriOpenedTwo)
 function shtoriOpenedTwo(){
     shtoriContainer2.classList.add('OpenedContainer')
-    document.querySelector('.opisanieShtori2').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieShtori2').innerHTML = 'Плотные интерьерные гардины блэкаут это один из самых эффективных методов затемнения любого помещения.'
     shtori2.style.width = '14em'
     shtori2.style.height = '12em'
 }
@@ -180,7 +182,7 @@ function  shtoriClosedTwo(){
 shtori1.addEventListener('mouseover', shtoriOpenedOne)
 function shtoriOpenedOne(){
     shtoriContainer1.classList.add('OpenedContainer')
-    document.querySelector('.opisanieShtori1').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieShtori1').innerHTML = 'Комплект готовых декоративных мраморных штор (под тюль-вуаль) на окна с подхватами Тинавина размерами: ширина 150, 200 см и высота 250, 265-270 см'
     shtori1.style.width = '14em'
     shtori1.style.height = '12em'
 }
@@ -196,7 +198,7 @@ function  shtoriClosedOne(){
 hoz4.addEventListener('mouseover', hozOpenedFour)
 function hozOpenedFour(){
     hozContainer4.classList.add('OpenedContainer')
-    document.querySelector('.opisanieHoz4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieHoz4').innerHTML = 'Эргономичное ведро с ободком предназначено для транспортировки жидкости во время влажной уборки и других хозяйственных целей.'
     hoz4.style.width = '14em'
     hoz4.style.height = '12em'
 }
@@ -213,7 +215,7 @@ function  hozClosedFour(){
 hoz3.addEventListener('mouseover', hozOpenedThree)
 function hozOpenedThree(){
     hozContainer3.classList.add('OpenedContainer')
-    document.querySelector('.opisanieHoz3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieHoz3').innerHTML = 'Бренд	MITTE Коллекция	Clean Производитель	Китай Материал	нерж. сталь, полипропилен, ПЭТ Цвет	бирюзовый, серый Совок размер	26,5х85х26 см Щётка размер	20,5х90 см'
     hoz3.style.width = '14em'
     hoz3.style.height = '12em'
 }
@@ -229,7 +231,7 @@ function  hozClosedThree(){
 hoz2.addEventListener('mouseover', hozOpenedTwo)
 function hozOpenedTwo(){
     hozContainer2.classList.add('OpenedContainer')
-    document.querySelector('.opisanieHoz2').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieHoz2').innerHTML = 'Перчатки с внутренним хлопковым напылением произведены из высококачественного натурального латекса. '
     hoz2.style.width = '14em'
     hoz2.style.height = '12em'
 }
@@ -245,7 +247,7 @@ function  hozClosedTwo(){
 hoz1.addEventListener('mouseover', hozOpenedOne)
 function hozOpenedOne(){
     hozContainer1.classList.add('OpenedContainer')
-    document.querySelector('.opisanieHoz1').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieHoz1').innerHTML = 'Предназначены для чистки посуды, раковин, плит. Поролоновый слой хорошо удерживает влагу и моющее средство, используется для деликатной очистки.'
     hoz1.style.width = '14em'
     hoz1.style.height = '12em'
 }
@@ -260,7 +262,7 @@ function  hozClosedOne(){
 kovri4.addEventListener('mouseover', kovriOpenedFour)
 function kovriOpenedFour(){
     kovriContainer4.classList.add('OpenedContainer')
-    document.querySelector('.opisanieKovri4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieKovri4').innerHTML = 'Коллекция	Эко Производитель	Россия Код производителя	С94ПР Размеры	120х120 см Материал	100% полипропилен Цвет	бежевый Форма	восьмигранник'
     kovri4.style.width = '14em'
     kovri4.style.height = '12em'
 }
@@ -275,7 +277,7 @@ function  kovriClosedFour(){
 kovri3.addEventListener('mouseover', kovriOpenedThree)
 function kovriOpenedThree(){
     kovriContainer3.classList.add('OpenedContainer')
-    document.querySelector('.opisanieKovri3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieKovri3').innerHTML = 'Ковер Ultrasoft относится к классу ковров-шегги. Объемное фактурное изделие с высоким густым ворсом отличается особой мягкостью и создаст невероятный уют в спальне, гостиной или кабинете.'
     kovri3.style.width = '14em'
     kovri3.style.height = '12em'
 }
@@ -290,7 +292,7 @@ function  kovriClosedThree(){
 kovri2.addEventListener('mouseover', kovriOpenedTwo)
 function kovriOpenedTwo(){
     kovriContainer2.classList.add('OpenedContainer')
-    document.querySelector('.opisanieKovri2').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieKovri2').innerHTML = 'Ковры SWEET RABBIT шелковистые и нежные, как кроличий мех. В них так приятно запускать пальцы, греть ноги в пушистом мягком облаке по вечерам.'
     kovri2.style.width = '14em'
     kovri2.style.height = '12em'
 }
@@ -306,7 +308,7 @@ function  kovriClosedTwo(){
 kovri1.addEventListener('mouseover', kovriOpenedOne)
 function kovriOpenedOne(){
     kovriContainer1.classList.add('OpenedContainer')
-    document.querySelector('.opisanieKovri1').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieKovri1').innerHTML = ' Коллекция	Фризе Шегги Производитель	Беларусь Гарантия	12 мес. Высота ворса	30 мм Размер (ШхД)	60х100 см Состав	100% полипропилен Форма	прямоугольник Цвет	кофейный меланж'
     kovri1.style.width = '14em'
     kovri1.style.height = '12em'
 }
@@ -321,7 +323,7 @@ function  kovriClosedOne(){
 vanna4.addEventListener('mouseover', vannaOpenedFour)
 function vannaOpenedFour(){
     vannaContainer4.classList.add('OpenedContainer')
-    document.querySelector('.opisanieVanna4').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieVanna4').innerHTML = 'Стакан для зубных щеток Аквалиния Smoky непременно привнесет в интерьер ванной комнаты изысканность, подчеркнет особый вкус хозяина и наполнит пространство комфортом .'
     vanna4.style.width = '14em'
     vanna4.style.height = '12em'
 }
@@ -337,7 +339,7 @@ function  vannaClosedFour(){
 vanna3.addEventListener('mouseover', vannaOpenedThree)
 function vannaOpenedThree(){
     vannaContainer3.classList.add('OpenedContainer')
-    document.querySelector('.opisanieVanna3').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieVanna3').innerHTML = 'Дозатор для жидкого мыла Leks создан для любителей красоты и комфорта, умеющих экономить. Это удобный и вместительный диспенсер, рассчитанный на 320 мл моющего средства. '
     vanna3.style.width = '14em'
     vanna3.style.height = '12em'
 }
@@ -352,7 +354,7 @@ function  vannaClosedThree(){
 vanna2.addEventListener('mouseover', vannaOpenedTwo)
 function vannaOpenedTwo(){
     vannaContainer2.classList.add('OpenedContainer')
-    document.querySelector('.opisanieVanna2').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieVanna2').innerHTML = 'Коллекция Infinity Производитель	Китай Размер 10х35х10 см Тип монтажа отдельно стоящий  Материал	ABS пластик Цвет серый, чёрный'
    
     vanna2.style.width = '14em'
     vanna2.style.height = '12em'
@@ -369,7 +371,7 @@ function  vannaClosedTwo(){
 vanna1.addEventListener('mouseover', vannaOpenedOne)
 function vannaOpenedOne(){
     vannaContainer1.classList.add('OpenedContainer')
-    document.querySelector('.opisanieVanna1').innerHTML = 'Люстра VITALUCE Тара блэк трио поможет визуально обозначить различные зоны в помещении и расставить акценты на основных элементах интерьера.'
+    document.querySelector('.opisanieVanna1').innerHTML = ' Коллекция Stone Производитель Китай Объем 250 мл Материал полирезин, пластмасса Цвет бежевый'
    
     vanna1.style.width = '14em'
     vanna1.style.height = '12em'
