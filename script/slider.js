@@ -1,3 +1,5 @@
+//@author Крайнюков Александр 
+//Скрипт слайдера
 let i = 1
 let j =1
 const btnNext = document.querySelector('.next')
@@ -5,9 +7,7 @@ btnNext.addEventListener('click', next)
 function next(){
     const elem = document.querySelector('.img')
     elem.classList.add('img'+i) 
-    
     i++
-   console.log(i);
     
 }
 

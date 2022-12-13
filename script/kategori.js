@@ -1,3 +1,5 @@
+//@author Крайнюков Александр 
+//Скрипт для отображения названия категории при наведении на иконку 
 const katSvet =  document.querySelector('.kategoriSvet')
 const katHoz = document.querySelector('.kategoriHoz')
 const katVan =  document.querySelector('.kategoriVan')
